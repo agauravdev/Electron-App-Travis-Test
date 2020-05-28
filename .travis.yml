@@ -1,3 +1,11 @@
+deploy:
+  provider: s3
+  access_key_id: "AKIA2D5ZCSZ2HFEPRNRI"
+  secret_access_key: "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"
+  bucket: "divideite"
+  skip_cleanup: true
+  local_dir: dist
+
 matrix:
   include:
     - os: osx
